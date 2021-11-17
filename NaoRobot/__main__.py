@@ -76,7 +76,7 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 [🌈](https://telegra.ph/file/ca39a509359ea8528a18a.jpg) 'Hai there i'm' [Sayonara](https://t.me/Sayonararobot_bot)
 ────────────────────
-Akira a powerful group management bot built to help you manage your group!
+Sayonara a powerful group management bot built to help you manage your group!
 ────────────────────
 Hit the /help or tap on button to se available command on me.
 """

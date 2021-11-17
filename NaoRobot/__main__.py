@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-[🌈](https://telegra.ph/file/daad4d89b74ee78d95c46.jpg) 'Hai there i'm' [Sayonara](https://t.me/Sayonararobot_bot)
+[🌈](https://telegra.ph/file/daad4d89b74ee78d95c46.jpg) 'Hai there i'm' [NɪᴋʜɪʟOᴘ](https://t.me/nikhilowner)
 ────────────────────
 Sayonara a powerful group management bot built to help you manage your group!
 ────────────────────

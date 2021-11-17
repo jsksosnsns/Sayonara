@@ -445,11 +445,11 @@ def Nao_about_callback(update, context):
                 [
                  [
                     InlineKeyboardButton(text="Log's", url="t.me/akiralogs"),
-                    InlineKeyboardButton(text="Fed's", url="t.me/AkiraSupport"),
+                    InlineKeyboardButton(text="Fed's", url="t.me/NaraXmusic"),
                  ],
                  [
-                    InlineKeyboardButton(text="Support", url="https://t.me/AkiraSupportChannel"),
-                    InlineKeyboardButton(text="Update", url="https://t.me/AkiraSupport"),
+                    InlineKeyboardButton(text="Support", url="https://t.me/Sayonara_story"),
+                    InlineKeyboardButton(text="Update", url="https://t.me/NaraXmusic"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="Nao_basichelp"),

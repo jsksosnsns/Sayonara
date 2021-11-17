@@ -228,7 +228,7 @@ updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
 telethn = TelegramClient(MemorySession(), API_ID, API_HASH)
 pbot = Client("naorobot", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 dispatcher = updater.dispatcher
-print("[AkiraRobot]: PYROGRAM CLIENT STARTING")
+print("[SayonaraRobot]: PYROGRAM CLIENT STARTING")
 session_name = TOKEN.split(":")[0]
 pgram = Client(
     session_name,

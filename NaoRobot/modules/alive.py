@@ -18,5 +18,5 @@ async def awake(event):
   NAO += f"🔴 **Telethon Version : {tlhver}** \n\n"
   NAO += f"🔴 **Pyrogram Version : {pyrover}** \n\n"
   NAO += "**Thanks For Adding Me Here ❤️**"
-  BUTTON = [[Button.url("ʜᴇʟᴘ", "https://t.me/Sayonararobot_bot?start=help"), Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/AkiraSupport")]]
+  BUTTON = [[Button.url("ʜᴇʟᴘ", "https://t.me/Sayonararobot_bot?start=help"), Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/NaraXmusic")]]
   await tbot.send_file(event.chat_id, PHOTO, caption=NAO,  buttons=BUTTON)

@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-[🌈](https://telegra.ph/file/2c8fbe1b7a26f184a247a.jpg) 'Hai there i'm' [Akira](https://t.me/Akiramanagerbot)
+[🌈](https://telegra.ph/file/ca39a509359ea8528a18a.jpg) 'Hai there i'm' [Sayonara](https://t.me/Sayonararobot_bot)
 ────────────────────
 Akira a powerful group management bot built to help you manage your group!
 ────────────────────
@@ -84,7 +84,7 @@ Hit the /help or tap on button to se available command on me.
 buttons = [
         [
         InlineKeyboardButton(
-            text="➕️ Add Akira to tour group ➕️", url="t.me/Akiramanagerbot?startgroup=true"),
+            text="➕️ Add Sayonara to tour group ➕️", url="t.me/Sayonararobot_bot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="About", callback_data="Nao_"),
@@ -352,7 +352,7 @@ def Nao_about_callback(update, context):
     if query.data == "Nao_":
         query.message.edit_text(
             text=""" ᴀ ᴘᴏᴡᴇʀғᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ʙᴜɪʟᴛ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴇᴀsɪʟʏ
-            \nHere's the basic help regarding use of Akira.
+            \nHere's the basic help regarding use of Sayonara.
             
             \nAlmost all modules usage defined in the help menu, checkout by sending `/help`
             \nReport error/bugs click the Button""",
@@ -362,10 +362,10 @@ def Nao_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Support", url="t.me/AkiraSupport"
+                            text="Support", url="t.me/NaraXmusic"
                         ),
                         InlineKeyboardButton(
-                            text="Tonic", url="t.me/Bukan_guudlooking"
+                            text="Sayo", url="t.me/Sayonara_nih"
                         ),
                     ],
                     [InlineKeyboardButton(text="Back", callback_data="Nao_back")],
@@ -386,7 +386,7 @@ def Nao_about_callback(update, context):
             text=f"*Here's basic Help regarding* *How to use Me?*"
             f"\n\n• Firstly Add {dispatcher.bot.first_name} to your group by pressing [here](http://t.me/{dispatcher.bot.username}?startgroup=true)\n"
             f"\n• After adding promote me manually with full rights for faster experience.\n"
-            f"\n• Than send `/admincache@AkiraRobot` in that chat to refresh admin list in My database.\n"
+            f"\n• Than send `/admincache@Sayonararobot` in that chat to refresh admin list in My database.\n"
             f"\n\n*All done now use below given button's to know about use!*\n"
             f"",
             parse_mode=ParseMode.MARKDOWN,
@@ -438,7 +438,7 @@ def Nao_about_callback(update, context):
         )
     elif query.data == "Nao_support":
         query.message.edit_text(
-            text="* Akira support chats*"
+            text="* Sayonara support chats*"
             "\nJoin Support Group/Channel",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
@@ -460,8 +460,8 @@ def Nao_about_callback(update, context):
         )
     elif query.data == "Nao_credit":
         query.message.edit_text(
-            text=f"<b> CREDIT FOR AKIRA 🌈 DEV'S</b>\n"
-            f"\nHere Some Developers Helping in Making The Akira Bot",
+            text=f"<b> CREDIT FOR SAYONARA 🌈 DEV'S</b>\n"
+            f"\nHere Some Developers Helping in Making The Sayonara Bot",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
@@ -470,7 +470,7 @@ def Nao_about_callback(update, context):
                             text="ㄨ•Barox", url="t.me/Xbarok"
                         ),
                         InlineKeyboardButton(
-                            text="Tonic", url="t.me/Bukan_guudlooking"
+                            text="Sayo", url="t.me/Sayonara_nih"
                         ),
                     ],
                     [InlineKeyboardButton(text="Back", callback_data="Nao_back")],
@@ -484,8 +484,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi.. there I'm *Akira*
-                 \nHere is the [Source Code](https://github.com/Tonic990) .""",
+            text=""" Hi.. there I'm *Sayonara*
+                 \nHere is the [Source Code](https://github.com/krisnadiwangga) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(

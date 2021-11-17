@@ -14,7 +14,7 @@ async def awake(event):
   tai = event.sender.first_name
   NAO = f"**Holla, I'm Sayonara Robot!** \n\n"
   NAO += "🔴 **I'm Working Properly** \n\n"
-  NAO += "🔴 **My Master : [Tonic](https://t.me/Sayonara_nih)** \n\n"
+  NAO += "🔴 **My Master : [Sayonara](https://t.me/Sayonara_nih)** \n\n"
   NAO += f"🔴 **Telethon Version : {tlhver}** \n\n"
   NAO += f"🔴 **Pyrogram Version : {pyrover}** \n\n"
   NAO += "**Thanks For Adding Me Here ❤️**"

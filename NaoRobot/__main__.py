@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-[🌈](https://telegra.ph/file/ca39a509359ea8528a18a.jpg) 'Hai there i'm' [Sayonara](https://t.me/Sayonararobot_bot)
+[🌈](https://telegra.ph/file/daad4d89b74ee78d95c46.jpg) 'Hai there i'm' [Sayonara](https://t.me/Sayonararobot_bot)
 ────────────────────
 Sayonara a powerful group management bot built to help you manage your group!
 ────────────────────
@@ -84,7 +84,7 @@ Hit the /help or tap on button to se available command on me.
 buttons = [
         [
         InlineKeyboardButton(
-            text="➕️ Add Sayonara to tour group ➕️", url="t.me/Sayonararobot_bot?startgroup=true"),
+            text="➕️ Add Nikhil to tour group ➕️", url="t.me/Sayonararobot_bot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="About", callback_data="Nao_"),
@@ -352,7 +352,7 @@ def Nao_about_callback(update, context):
     if query.data == "Nao_":
         query.message.edit_text(
             text=""" ᴀ ᴘᴏᴡᴇʀғᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ʙᴜɪʟᴛ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴇᴀsɪʟʏ
-            \nHere's the basic help regarding use of Sayonara.
+            \nHere's the basic help regarding use of Nikhil.
             
             \nAlmost all modules usage defined in the help menu, checkout by sending `/help`
             \nReport error/bugs click the Button""",
@@ -362,10 +362,10 @@ def Nao_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Support", url="t.me/NaraXmusic"
+                            text="Support", url="t.me/dost_hai_sab"
                         ),
                         InlineKeyboardButton(
-                            text="Sayo", url="t.me/Sayonara_nih"
+                            text="Owner", url="t.me/dost_hai_sab"
                         ),
                     ],
                     [InlineKeyboardButton(text="Back", callback_data="Nao_back")],
@@ -444,12 +444,12 @@ def Nao_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Log's", url="t.me/akiralogs"),
-                    InlineKeyboardButton(text="Fed's", url="t.me/NaraXmusic"),
+                    InlineKeyboardButton(text="Log's", url="t.me/dost_hai_sab"),
+                    InlineKeyboardButton(text="Fed's", url="t.me/dost_hai_sab"),
                  ],
                  [
-                    InlineKeyboardButton(text="Support", url="https://t.me/Sayonara_story"),
-                    InlineKeyboardButton(text="Update", url="https://t.me/NaraXmusic"),
+                    InlineKeyboardButton(text="Support", url="https://t.me/dost_hai_sab"),
+                    InlineKeyboardButton(text="Update", url="https://t.me/dost_hai_sab"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="Nao_basichelp"),
@@ -461,16 +461,16 @@ def Nao_about_callback(update, context):
     elif query.data == "Nao_credit":
         query.message.edit_text(
             text=f"<b> CREDIT FOR SAYONARA 🌈 DEV'S</b>\n"
-            f"\nHere Some Developers Helping in Making The Sayonara Bot",
+            f"\nHere Some Developers Helping in Making The Nikhil Bot",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="ㄨ•Barox", url="t.me/Xbarok"
+                            text="ㄨ•Barox", url="t.me/dost_hai_sab"
                         ),
                         InlineKeyboardButton(
-                            text="Sayo", url="t.me/Sayonara_nih"
+                            text="Sayo", url="t.me/dost_hai_sab"
                         ),
                     ],
                     [InlineKeyboardButton(text="Back", callback_data="Nao_back")],
@@ -484,8 +484,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi.. there I'm *Sayonara*
-                 \nHere is the [Source Code](https://github.com/krisnadiwangga) .""",
+            text=""" Hi.. there I'm *Nikhil*
+                 \nHere is the [Source Code](https://t.me/dost_hai_sab) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(

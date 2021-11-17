@@ -1,7 +1,7 @@
 {
       "name": "Akira Robot",
       "description": "Theme anime Telegram group management bot.",
-      "logo": "https://telegra.ph/file/0760209e3470380752874.jpg",
+      "logo": "https://telegra.ph/file/ca39a509359ea8528a18a.jpg",
       "keywords": [
          "telegram",
          "anime",
@@ -9,7 +9,7 @@
          "manager",
          "Memek"
       ],   
-   "repository": "https://github.com/Tonic990/kirabot",
+   "repository": "https://github.com/krisnadiwangga/Sayonara",
    "addons": [
       {
          "options": {
